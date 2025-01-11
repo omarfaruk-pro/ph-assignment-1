@@ -212,3 +212,110 @@ p.section-description {
 .quote p.designation {
   opacity: 0.6;
 }
+
+/* recent news */
+.news {
+  padding-top: 80px;
+}
+.news-card {
+  background-color: white;
+  padding: 48px;
+  border-radius: 24px;
+  display: flex;
+  gap: 32px;
+  margin-top: 32px;
+}
+.news-img {
+  max-width: 408px;
+  border-radius: 24px;
+}
+.news-card h3 {
+  font-size: 32px;
+  font-weight: 700;
+  opacity: 0.8;
+  margin-bottom: 12px;
+}
+.news-card p {
+  opacity: 0.7;
+}
+.news-meta {
+  margin: 12px 0;
+}
+.news-meta span:first-child {
+  margin-right: 12px;
+}
+.news-card a {
+  display: inline-block;
+  border-radius: 8px;
+  padding: 13px 26px;
+  color: white;
+  font-weight: 600;
+  font-size: 18px;
+  background-color: #006a50;
+  margin-top: 32px;
+}
+
+/* donate section css */
+.donate {
+  text-align: center;
+  padding-top: 80px;
+}
+.donate-amount {
+  display: flex;
+  gap: 24px;
+  justify-content: center;
+  margin-top: 32px;
+}
+.amount-box {
+  background-color: white;
+  border-radius: 16px;
+  padding: 40px;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  color: rgba(14, 14, 14, 0.8);
+  font-size: 40px;
+  font-weight: 700;
+  transition: 0.3s ease-in-out;
+  line-height: 1;
+}
+.amount-box.active {
+  background-color: rgba(14, 14, 14, 0.15);
+}
+.amount-box:hover {
+  background-color: rgba(14, 14, 14, 0.15);
+}
+.donate form {
+  margin: auto;
+  margin-top: 32px;
+  max-width: 1032px;
+}
+.donate form input {
+  display: block;
+  width: 100%;
+  text-align: center;
+  padding: 20px;
+  background-color: white;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  line-height: 1;
+  font-size: 20px;
+}
+.donate form input:focus {
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  border-radius: 0;
+  outline: none;
+}
+.donate form input::placeholder {
+  font-size: 20px;
+  line-height: 1;
+  opacity: 0.3;
+}
+.donate form button {
+  display: inline-block;
+  border-radius: 8px;
+  padding: 17px 34px;
+  color: white;
+  font-weight: 600;
+  font-size: 18px;
+  background-color: #006a50;
+  margin-top: 32px;
+  border: none;
+}
