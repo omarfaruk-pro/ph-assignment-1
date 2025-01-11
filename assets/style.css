@@ -1,10 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-
-@import url("https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
 :root {
   --primaryColor: #0e0e0e;
@@ -213,6 +213,44 @@ p.section-description {
   opacity: 0.6;
 }
 
+/* opinion */
+.opinion {
+  margin-top: 80px;
+}
+.opinion-table-wrap {
+  background-color: white;
+  padding: 32px;
+  border-radius: 16px;
+  margin-top: 32px;
+}
+.opinion-table {
+  width: 100%;
+
+  border-collapse: collapse;
+}
+.opinion-table td {
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  padding: 24px;
+}
+.opinion-table th {
+  background-color: #dbdbdb;
+  border: 1px solid #dbdbdb;
+  text-align: left;
+  padding: 24px;
+}
+
+.opinion-table select {
+  background-color: rgba(14, 14, 14, 0.15);
+  border: 1px solid var(--primaryColor);
+  border-radius: 4px;
+  font-weight: 500;
+  width: 100%;
+  padding: 12px 16px;
+}
+.opinion-table select:focus {
+  border: 1px solid var(--primaryColor);
+  outline: none;
+}
 /* recent news */
 .news {
   padding-top: 80px;
