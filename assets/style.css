@@ -10,7 +10,7 @@
   --primaryColor: #0e0e0e;
 }
 body {
-  font-family: "Fira Sans", sans-serif;
+  font-family: "Fira Sans", serif;
   font-size: 16px;
   line-height: 1.5;
   color: var(--primaryColor);
@@ -48,6 +48,43 @@ header {
   border-radius: 8px;
   display: inline-block;
   padding: 15px 30px;
+  font-size: 18px;
+  font-weight: 600;
+  color: #006a50;
+}
+
+/* banner css */
+.banner-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 80px 60px;
+  gap: 64px;
+  background-color: #c6e4d6;
+  border-radius: 24px;
+  margin-top: 20px;
+}
+.banner-content div:first-child {
+  max-width: 610px;
+}
+.banner-content p {
+  font-size: 24px;
+  font-weight: 500;
+  color: var(--primaryColor);
+  opacity: 0.75;
+}
+.banner-content h1 {
+  font-size: 56px;
+  font-weight: 700;
+  margin-top: 16px;
+  margin-bottom: 24px;
+}
+.banner-content a {
+  display: inline-block;
+  background-color: #006a50;
+  color: white;
+  padding: 17px 34px;
+  border-radius: 8px;
   font-size: 18px;
   font-weight: 600;
 }
