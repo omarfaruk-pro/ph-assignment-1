@@ -319,3 +319,65 @@ p.section-description {
   margin-top: 32px;
   border: none;
 }
+
+/* newsletter ection css */
+.newsletter {
+  text-align: center;
+  margin: 80px 0;
+  padding: 80px 0;
+  background-color: #c6e4d6;
+  border-radius: 24px;
+}
+.newsletter p {
+  opacity: 0.7;
+}
+.newsletter form {
+  display: flex;
+  max-width: 800px;
+  margin: 24px auto;
+  border-radius: 8px;
+  overflow: hidden;
+}
+.newsletter form input {
+  width: 100%;
+  background-color: white;
+  padding: 18px 40px;
+  border: none;
+}
+.newsletter form input:focus {
+  outline: none;
+}
+.newsletter form button {
+  background-color: #006a50;
+  border: none;
+  color: white;
+  font-size: 18px;
+  font-weight: 600;
+  padding: 17px 34px;
+}
+
+/* footer css */
+footer {
+  background-color: white;
+  padding: 50px 0;
+  text-align: center;
+}
+footer h2 {
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 32px;
+}
+footer hr {
+  max-width: 1120px;
+  margin: auto;
+}
+.social-link {
+  display: flex;
+  gap: 23px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 32px;
+}
+.social-link img {
+  width: 24px;
+}
